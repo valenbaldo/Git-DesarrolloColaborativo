@@ -149,3 +149,9 @@ git show 60776
 git log # Version larga.
 git log --oneline # Version resumen
 ```
+
+#### .gitignore: Para ignorar archivos que no deseo que esten en el repositorio
+Creo normalmente en el directorio raíz del proyecto el archivo .gitignore. Se le escriben los nombres de las carpetas a ignorar. Puede ser un commit unico
+
+#### .gitkeep: Para darle seguimiento a carpetas vacias
+Git no versiona carpetas vacias, este archivo sirve para que la detecte. 
