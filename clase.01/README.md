@@ -132,5 +132,9 @@ Lo verde es lo que se agrego al archivo, lo rojo lo que se quito en base a lo qu
 git diff
 ```
 
-
+#### Quitar de la area de staging area
+```sh
+git restore --staged <nombre-del-archivo>
+git restore --staged clase.01/README.md
+```
 
