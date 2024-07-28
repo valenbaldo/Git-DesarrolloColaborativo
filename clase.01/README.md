@@ -154,4 +154,4 @@ git log --oneline # Version resumen
 Creo normalmente en el directorio raíz del proyecto el archivo .gitignore. Se le escriben los nombres de las carpetas a ignorar. Puede ser un commit unico
 
 #### .gitkeep: Para darle seguimiento a carpetas vacias
-Git no versiona carpetas vacias, este archivo sirve para que la detecte. 
+Git no versiona carpetas vacias, este archivo sirve para que la detecte.
