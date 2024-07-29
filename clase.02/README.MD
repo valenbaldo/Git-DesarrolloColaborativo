@@ -36,6 +36,7 @@ $ git commit -m "Nuevo commit, mensaje descriptivo"
 $ git diff <hash> <hash>
 ```
 
+
 ## Para agregar algo que olvide o quiero incorporar en el ultimo commit, uso el siguiente comando
 
 ```sh

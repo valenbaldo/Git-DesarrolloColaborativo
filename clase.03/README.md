@@ -36,7 +36,7 @@ git branch -d <nombre-rama>
 git branch -d feature/footer 
 ```
 
-Si los cambios exiten en otra rama de nuestro repo, voy a poder borrar la rama sin problemas pero si no exite tengo que forzar el borrado de la rama
+Si los commits exiten en otra rama de nuestro repo, voy a poder borrar la rama sin problemas pero si no exiten tengo que forzar el borrado de la rama
 
 ```sh
 git branch -D feature/footer
@@ -79,3 +79,7 @@ Importante: Si los integrantes del proyecto no estan todos para la fusion. Debo 
 
 * GitHub Desktop
 * GitKraken
+
+## Visualizacion de ramas en VSC
+
+* mhutchie.git-graph
