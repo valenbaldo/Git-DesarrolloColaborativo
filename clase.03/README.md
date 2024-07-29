@@ -41,8 +41,35 @@ Si los cambios exiten en otra rama de nuestro repo, voy a poder borrar la rama s
 ```sh
 git branch -D feature/footer
 ```
-## Crear rama y moverse a ella
+### Crear rama y moverse a ella
 
 ```sh
 $ git switch -c <nombreDeRama>
 $ git switch -c feature/ramas
+```
+
+### Para ver todas las ramas del proyecto
+
+```sh
+git log --oneline --decorate --graph --all
+```
+
+### Git Merge
+
+Nota: Tengo que estar ubicado en la rama en la cual me quiero traer los cambios. Osea si tengo la rama feature/ramas y quiero traerme los cambios al main. Tengo que estar parado sobre el main y ejecutar el siguiente comando. 
+
+```sh
+
+git switch main
+git merge <nombre-de-rama>
+git merge feature/ramas
+
+```
+
+Importante: Si los integrantes del proyecto no estan todos para la fusion. Debo abortar el proceso.
+
+### Tipos de fusiones
+
+* Fast - Foward: Este tipo de fusion git lo hace automaticamente
+* Triple via: Este tipo de fusion git lo hace automaticamente
+* Conflicto: Este tipo de fusion git no lo puede resolver por si solo, lo tenemos que solucionar nosotros.
