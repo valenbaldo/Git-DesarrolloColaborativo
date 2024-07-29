@@ -8,3 +8,9 @@ Recomendacion: En el proyecto deberiamos tener una rama pincipal (main) y una ra
 
 ![estructura-ramas](_ref/basica.png)
 ![estructura-ramas](_ref/avanzada.png)
+
+### Creando una rama
+
+```sh
+git branch <nombre-rama>
+```
