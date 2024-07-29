@@ -14,3 +14,9 @@ Recomendacion: En el proyecto deberiamos tener una rama pincipal (main) y una ra
 ```sh
 git branch <nombre-rama>
 ```
+
+### Listar ramas dentro de un repositorio
+
+```sh
+git branch
+```
