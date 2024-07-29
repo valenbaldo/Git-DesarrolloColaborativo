@@ -28,3 +28,16 @@ git switch <nombre-rama>
 git switch feature/ramas
 git switch - #Toggle entre las ultimas 2 ramas
 ```
+
+### Borrar una rama
+
+```sh
+git branch -d <nombre-rama>
+git branch -d feature/footer 
+```
+
+Si los cambios exiten en otra rama de nuestro repo, voy a poder borrar la rama sin problemas pero si no exite tengo que forzar el borrado de la rama
+
+```sh
+git branch -D feature/footer
+```
