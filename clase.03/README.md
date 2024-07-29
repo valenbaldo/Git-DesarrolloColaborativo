@@ -2,3 +2,4 @@
 
 ## Repaso
 
+Recomendacion: En el proyecto deberiamos tener una rama pincipal (main) y una rama de cada uno de los integrantes. Hay que tener cuidado si se asignan mismas funcionalidades ya que puede haber colisiones al momento de fusionar las ramas. 
