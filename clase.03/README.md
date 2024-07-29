@@ -73,3 +73,9 @@ Importante: Si los integrantes del proyecto no estan todos para la fusion. Debo 
 * Fast - Foward: Este tipo de fusion git lo hace automaticamente
 * Triple via: Este tipo de fusion git lo hace automaticamente
 * Conflicto: Este tipo de fusion git no lo puede resolver por si solo, lo tenemos que solucionar nosotros.
+
+
+## Clientes de GIT con GUI (Interfaz grafica)
+
+* GitHub Desktop
+* GitKraken
