@@ -57,5 +57,22 @@ $ git branch
 
 ```sh
 $ git branch <nombre-rama>
-$ git branch feature/navbar #feature es una nomenclatura comun para marcar ramas
+
+$ git branch feature/ramas
+$ git branch feature/navbar  #feature es una nomenclatura comun para marcar ramas
+```
+## Moverme entre ramas
+
+```sh
+$ git switch <nombreDeRama> #el más recomendado actualmente 
+$ git switch - #para moverse a la última rama a la que estuve
+
+$ git switch feature/ramas
+```
+
+## Crear y moverme
+
+```sh
+$ git switch -c <nombreDeRama>
+
 ```
