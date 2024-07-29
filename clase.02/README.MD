@@ -44,4 +44,18 @@ $ git commit --amend
 $ git commit --amend "nuevo mensaje" #si quiero modificar el nombre del commit uso esto
 ```
 # Ramas (branches)
+
 ## Nos permiten trabajar en el proyecto de manera auxiliar
+
+## Listar ramas
+
+```sh
+$ git branch
+```
+
+## Crear una rama
+
+```sh
+$ git branch <nombre-rama>
+$ git branch feature/navbar #feature es una nomenclatura comun para marcar ramas
+```
