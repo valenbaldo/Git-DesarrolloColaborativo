@@ -71,3 +71,27 @@ $ git config --global --get-regexp alias
 
 # GIT RESET
 Me permite deshacer cambios en el arbol de trabajo y en el area de preparacion(staging area) de git.
+
+## 3 tipos de reset
+
+Le digo uno menos(inmediato inferior) de los quiero eliminar.
+
+1. Reset soft: borra el commmit o los commits selecionados y arrojar los cambios al staging area. 
+
+```sh
+git reset --soft <hash>
+```
+
+2. Reset Mixed: Va a borrar el commit o los commits seleccionados y arrojar los cambios al Working directory.
+
+```sh
+git reset <hash>
+git reset --mixed <hash>
+```
+
+3. Reset hard: Va a borrar el commit o los commits seleccionados y descartar los cambios dentro de esos commit. Hay que tener cuidado al usarlo.
+
+```sh
+git reset <hash>
+git reset --hard <hash>
+```
