@@ -95,3 +95,9 @@ git reset --mixed <hash>
 git reset <hash>
 git reset --hard <hash>
 ```
+
+## Para ver la historia del principio de los tiempos y todos los cambios (para recuperar)
+
+```sh
+$ git reflog
+```
