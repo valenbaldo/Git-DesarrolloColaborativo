@@ -20,11 +20,13 @@ $ git stash list
 ```
 
 #### Aplicar un stash (el ultimo)
+Si lo aplica borra el ultimo stash, si hay conflicto lo aplica y no lo borra.
 
 ```sh
 $ git stash pop
 ```
 #### Aplicar un stash especifico (rompiendo la estructura de pila)
+Lo aplica pero NUNCA borra el stash, hay que hacerlo manualmente
 
 ```sh
 $ git stash apply <numero de stash>
@@ -34,5 +36,11 @@ $ git stash apply <numero de stash>
 
 ```sh
 $ git stash drop
+```
+
+#### Borrar un stash en especifico
+
+```sh
+$ git stash drop <numero de stash>
 ```
 
