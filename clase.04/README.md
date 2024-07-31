@@ -68,3 +68,6 @@ $ git config --global --unset alias.ll #Quita el alias ll
 ```sh
 $ git config --global --get-regexp alias
 ```
+
+# GIT RESET
+
