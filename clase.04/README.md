@@ -70,4 +70,4 @@ $ git config --global --get-regexp alias
 ```
 
 # GIT RESET
-
+Me permite deshacer cambios en el arbol de trabajo y en el area de preparacion(staging area) de git.
